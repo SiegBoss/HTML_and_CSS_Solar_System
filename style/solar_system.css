@@ -1,0 +1,64 @@
+/*Estilo Genereales | General Styles*/
+body {
+  background-color: black;
+}
+
+/*Estilo del contenedor principal | Main Container Style*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/*Estilo del contenedor del sol | Sun Container Style*/
+#sun {
+  width: 100px;
+  height: 100px;
+
+}
+
+#sun img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Estilo del contenedor del planeta tierra | Earth Container Style*/
+#earth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  animation: rotation 10s infinite linear;
+}
+
+#earth img {
+  width: 20px;
+  height: 20px;
+  animation: counterRotation 10s infinite linear;
+}
+
+/*Animacion de rotacion de la tierra | Earth Rotation Animation*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/*Animacion de rotacion contraria de la tierra | Earth Counter Rotation Animation*/
+@keyframes counterRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
