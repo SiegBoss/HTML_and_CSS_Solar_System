@@ -1,69 +1,62 @@
 /*Estilo Genereales | General Styles*/
 body {
-    background-color: black;
+    background-color: #221e1d
 }
 
 /*Estilo del contenedor principal | Main Container Style*/
 .main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    height: 90vh;
 }
 
 /*Estilo del contenedor del sol | Sun Container Style*/
 #sun {
-    width: 50px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
 
 }
 
 #sun img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
-/*Estilo del contenedor del planeta tierra | Earth Container Style*/
 #mercury {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    margin: -25px 0 0 -25px;
-    animation: rotation 5s infinite linear;
+    width: 80px;
+    height: 80px;
+    animation: rotation 2.5s infinite linear;
 }
 
 #mercury img {
     width: 10px;
     height: 10px;
-    animation: counterRotation 5s infinite linear;
+    animation: counterRotation 2.5s infinite linear;
 }
 
 #venus {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 75px;
-    height: 75px;
-    margin: -37.5px 0 0 -37.5px;
-    animation: rotation 7.5s infinite linear;
+    width: 120px;
+    height: 120px;
+    animation: rotation 6.5s infinite linear;
+    
 }
 
 #venus img {
     width: 15px;
     height: 15px;
-    animation: counterRotation 7.5s infinite linear;
+    animation: counterRotation 6.5s infinite linear;
 }
 
 #earth {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 200px;
-    margin: -100px 0 0 -100px;
+    width: 160px;
+    height: 160px;
     animation: rotation 10s infinite linear;
 }
 
@@ -75,82 +68,79 @@ body {
 
 #mars {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    animation: rotation 12.5s infinite linear;
+    width: 180px;
+    height: 180px;
+    animation: rotation 18.8s infinite linear;
 }
 
 #mars img {
     width: 15px;
     height: 15px;
-    animation: counterRotation 12.5s infinite linear;
+    animation: counterRotation 18.8s infinite linear;
+}
+
+#asteroids {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+#asteroids img {
+    
+    width: 100%;
+    height: auto;
 }
 
 #jupiter {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 300px;
-    margin: -150px 0 0 -150px;
-    animation: rotation 15s infinite linear;
+    width: 320px;
+    height: 320px;
+    animation: rotation 118.7s infinite linear;
 }
 
 #jupiter img {
     width: 30px;
     height: 30px;
-    animation: counterRotation 15s infinite linear;
+    animation: counterRotation 118.7s infinite linear;
 }
 
 #saturn {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 250px;
-    height: 250px;
-    margin: -125px 0 0 -125px;
-    animation: rotation 17.5s infinite linear;
+    width: 360px;
+    height: 360px;
+    animation: rotation 294.8s infinite linear;
 }
 
 #saturn img {
-    width: 25px;
+    width: 34px;
     height: 25px;
-    animation: counterRotation 17.5s infinite linear;
+    animation: counterRotation 294.8s infinite linear;
 }
 
 #uranus {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 200px;
-    margin: -100px 0 0 -100px;
-    animation: rotation 20s infinite linear;
+    width: 400px;
+    height: 400px;
+    animation: rotation 840.4s infinite linear;
 }
 
 #uranus img {
     width: 20px;
     height: 20px;
-    animation: counterRotation 20s infinite linear;
+    animation: counterRotation 840.4s infinite linear;
 }
 
 #neptune {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 175px;
-    height: 175px;
-    margin: -87.5px 0 0 -87.5px;
-    animation: rotation 22.5s infinite linear;
+    width: 440px;
+    height: 440px;
+    animation: rotation 45.2s infinite linear;
 }
 
 #neptune img {
     width: 17.5px;
     height: 17.5px;
-    animation: counterRotation 22.5s infinite linear;
+    animation: counterRotation 45.2s infinite linear;
 }
 
 /*Animacion de rotacion de la tierra | Earth Rotation Animation*/
