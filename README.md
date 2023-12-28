@@ -1,2 +1,2 @@
 # HTML_CSS_JavaScript_Solar_System
-Proximamente
+ Solar system in HTML CSS and JavaScript
