@@ -22,7 +22,7 @@ El proyecto consta de los siguientes archivos y carpetas:
 
 Puedes ver una demostración del `Sistema Solar` en funcionamiento en el siguiente enlace: 
 
-https://siegboss.github.io/HTML_CSS_JavaScript_Solar_System/
+https://siegboss.github.io/HTML_and_CSS_Solar_System/
 
 ## Licencia
 
@@ -54,7 +54,7 @@ The project consists of the following files and folders:
 
 You can see a demonstration of the `Solar System` in operation at the following link:
 
-https://siegboss.github.io/HTML_CSS_JavaScript_Solar_System/
+https://siegboss.github.io/HTML_and_CSS_Solar_System/
 
 ## License
 
