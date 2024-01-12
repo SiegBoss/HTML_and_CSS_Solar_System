@@ -1,6 +1,6 @@
 # Sistema Solar estilo Pixel Art en HTML y CSS
 
-Este proyecto es el Sistema Solar estilo Pixel Art desarrollado con HTML y CSS, el movimiento de los planetas esta a escala, el tamaño y la distancia no lo estan 
+Este proyecto es el Sistema Solar estilo Pixel Art desarrollado con HTML y CSS, el movimiento de los planetas esta a escala, el tamaño y la distancia no lo estan.
 
 Las imágenes utilizadas en este proyecto son de estilo Pixel Art, creadas por mí.
 

@@ -14,7 +14,7 @@ body {
     height: 90vh;
 }
 
-
+/*---------------------*/
 /*Estilos del Sol, Planetas y Asteroides | Styles of the Sun, Planets and Asteroids*/
 #sun {
     display: flex;
@@ -148,6 +148,7 @@ body {
 }
 
 
+/*---------------------*/
 /*Animaciones | Animations*/
 @keyframes rotation {
     from {
