@@ -1,61 +1,59 @@
-# Sistema Solar estilo Pixel Art en HTML y CSS
+# 🌌 Sistema Solar estilo Pixel Art en HTML y CSS
 
-Este proyecto es el Sistema Solar estilo Pixel Art desarrollado con HTML y CSS, el movimiento de los planetas esta a escala, el tamaño y la distancia no lo estan.
+Este proyecto representa el **Sistema Solar** con un estilo visual **Pixel Art**, desarrollado únicamente con **HTML** y **CSS**.  
+El movimiento de los planetas está **a escala real respecto al tiempo**, pero **el tamaño y las distancias** no están a escala.
 
-Las imágenes utilizadas en este proyecto son de estilo Pixel Art, creadas por mí.
+Las imágenes utilizadas en este proyecto son de creación propia, hechas en estilo **Pixel Art**.
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
-El proyecto consta de los siguientes archivos y carpetas:
+El proyecto incluye los siguientes archivos y carpetas:
 
-- `index.html`: Este es el archivo principal que contiene la estructura HTML.
-- `solar_system.css`: Este archivo contiene todos los estilos CSS utilizados para dar formato y estilo a la pagina.
-- `assets`: Esta carpeta contiene todas las imágenes de estilo Pixel Art utilizadas.
+- `index.html`: Archivo principal que contiene la estructura HTML.
+- `solar_system.css`: Archivo de estilos CSS aplicado a la visualización del sistema solar.
+- `assets/`: Carpeta que contiene las imágenes en estilo Pixel Art.
 
-## Herramientas de Desarrollo
+## 🛠️ Tecnologías Utilizadas
 
-- HTML
-- CSS
-- Aseprite
+- HTML  
+- CSS  
+- Aseprite (para crear los sprites pixelados)
 
-## Demostración
+## 🔍 Demostración
 
-Puedes ver una demostración del `Sistema Solar` en funcionamiento en el siguiente enlace: 
+Puedes ver una demostración en funcionamiento aquí: https://siegboss.github.io/HTML_and_CSS_Solar_System/
 
-https://siegboss.github.io/HTML_and_CSS_Solar_System/
+## 📄 Licencia
 
-## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [`LICENSE`] para más información.
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
+---
 
-------------------------------
+# 🌌 Solar System Pixel Art Style in HTML and CSS
 
-# Solar System Pixel Art style in HTML and CSS
+This project showcases the **Solar System** in a **Pixel Art** style, developed using **HTML** and **CSS** only.  
+The **movement of the planets** is **to scale in time**, but **size and distance** are not to scale.
 
-This project is the Solar System in Pixel Art style developed with HTML and CSS, the movement of the planets is to scale, the size and distance are not.
+The images used in this project are original Pixel Art creations made by me.
 
-The images used in this project are Pixel Art style, created by me.
+## 📁 Project Structure
 
-## Project structure
+The project includes the following files and folders:
 
-The project consists of the following files and folders:
+- `index.html`: Main file containing the HTML structure.
+- `solar_system.css`: CSS file responsible for styling and animations.
+- `assets/`: Folder containing all the Pixel Art images.
 
-- `index.html` : This is the main file that contains the HTML structure.
-- `solar_system.css` : This file contains all the CSS styles used to format and style the page.
-- `assets` : This folder contains all the Pixel Art style images used.
+## 🛠️ Development Tools
 
-## Development tools
+- HTML  
+- CSS  
+- Aseprite (used for creating pixel art)
 
-- HTML
-- CSS
-- Aseprite
+## 🔍 Demo
 
-## Demo
+Check out the live demo here: https://siegboss.github.io/HTML_and_CSS_Solar_System/
 
-You can see a demonstration of the `Solar System` in operation at the following link:
+## 📄 License
 
-https://siegboss.github.io/HTML_and_CSS_Solar_System/
-
-## License
-
-This project is under the MIT license. Check the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [`LICENSE`] file for more details.
